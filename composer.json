@@ -1,5 +1,5 @@
 {
-  "name": "swooletw/laravel-swoole",
+  "name": "haggag/laravel-swoole",
   "description": "High performance HTTP server based on Swoole. Speed up your Laravel and Lumen applications.",
   "keywords": [
     "swoole",
@@ -21,20 +21,20 @@
     }
   ],
   "require": {
-    "php": ">=7.4|<=8.2",
+    "php": ">=7.4 <=8.2",
     "ext-swoole": "^4",
-    "illuminate/console": ">=5.4",
-    "illuminate/contracts": ">=5.4",
-    "illuminate/http": ">=5.4",
-    "illuminate/support": ">=5.4",
+    "illuminate/console": "^5.4|^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+    "illuminate/contracts": "^5.4|^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+    "illuminate/http": "^5.4|^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+    "illuminate/support": "^5.4|^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
     "predis/predis": "^1.1",
-    "laravel/framework":"v5.4"
+    "laravel/framework": "^5.4|^6.0|^7.0|^8.0|^9.0|^10.0|^11.0"
   },
   "require-dev": {
-    "laravel/lumen-framework": ">=5.4",
-    "phpunit/phpunit": ">=8.5",
-    "phpunit/php-code-coverage": ">=7.0",
-    "php-coveralls/php-coveralls": ">=2.1",
+    "laravel/lumen-framework": "^5.4|^6.0|^7.0|^8.0|^9.0|^10.0|^11.0",
+    "phpunit/phpunit": "^8.5|^9.0|^10.0",
+    "phpunit/php-code-coverage": "^7.0|^8.0|^9.0",
+    "php-coveralls/php-coveralls": "^2.1",
     "mockery/mockery": "^1.3",
     "codedungeon/phpunit-result-printer": "^0.31.0",
     "php-mock/php-mock": "^2.3",
